@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="633.0" prefWidth="684.0" style="-fx-background-color: linear-gradient(DarkRed, Black);;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SearchingAlgorithms.Controller">
+   <children>
+      <Label layoutX="200.0" layoutY="10.0" prefHeight="54.0" prefWidth="266.0" style="-fx-border-style: solid; -fx-border-width: 3px; -fx-border-radius: 50px; -fx-border-color: #FFDAB9;" textFill="PEACHPUFF" />
+      <Text fill="PEACHPUFF" fontSmoothingType="LCD" layoutX="156.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-border-style: solid; -fx-border-color: white;" text=" Searching Algorithms" textAlignment="CENTER" wrappingWidth="353.63671875">
+         <font>
+            <Font name="Cambria Bold Italic" size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="414.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="START : " wrappingWidth="61.0">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="CB_Start" layoutX="521.0" layoutY="88.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #FFDAB9;" />
+      <Text layoutX="413.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Travel Time :" wrappingWidth="86.0859375">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="Time" layoutX="521.0" layoutY="122.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #FFDAB9;" />
+      <VBox layoutX="521.0" layoutY="163.0" prefHeight="342.0" prefWidth="149.0">
+         <children>
+            <CheckBox fx:id="c1" mnemonicParsing="false" text="Akko" textFill="WHITE">
+               <effect>
+                  <Lighting diffuseConstant="1.26" specularConstant="0.45" specularExponent="11.4" surfaceScale="1.4">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#dab99f" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </CheckBox>
+            <CheckBox fx:id="c2" mnemonicParsing="false" text="Bethlehem" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c3" mnemonicParsing="false" text="Bir-sabe" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c4" mnemonicParsing="false" text="Gaza" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c5" mnemonicParsing="false" text="Haifa" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c6" mnemonicParsing="false" text="Hebron" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c7" mnemonicParsing="false" text="Jericho" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c8" mnemonicParsing="false" text="Jerusalem" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c9" mnemonicParsing="false" text="Jenin" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c10" mnemonicParsing="false" text="Karmiel" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c11" mnemonicParsing="false" text="Nablus" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c12" mnemonicParsing="false" text="Nahariyya" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c13" mnemonicParsing="false" text="Nazareth" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c14" mnemonicParsing="false" text="Qaqilia" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c15" mnemonicParsing="false" prefHeight="22.0" prefWidth="70.0" text="Ramallah" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c16" mnemonicParsing="false" text="Salfit" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c17" mnemonicParsing="false" text="Tiberias" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c18" mnemonicParsing="false" text="Tubas" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c19" mnemonicParsing="false" text="Tulkarm" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+            <CheckBox fx:id="c20" mnemonicParsing="false" text="Yafo" textFill="WHITE">
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="PEACHPUFF" />
+                     </light>
+                  </Lighting>
+               </effect></CheckBox>
+         </children>
+      </VBox>
+      <Text layoutX="413.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals : ">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="395.0" fitWidth="304.0" layoutX="17.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../map.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="132.0" layoutY="83.0" prefHeight="17.0" prefWidth="48.0" text="   MAP" textFill="PEACHPUFF">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="67.0" fitWidth="74.0" layoutX="17.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../carM.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="333.0" layoutY="480.0" prefHeight="25.0" prefWidth="86.0" text="     Cost :" textAlignment="CENTER" textFill="DARKOLIVEGREEN">
+         <font>
+            <Font name="Constantia Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cost" layoutX="433.0" layoutY="480.0" prefHeight="25.0" prefWidth="74.0" style="-fx-background-color: #FFDAB9;" />
+      <Button layoutX="367.0" layoutY="211.0" mnemonicParsing="false" onAction="#DFS_Search" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #556B2F;" text="Depth First Search" textFill="PEACHPUFF">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="251.0" mnemonicParsing="false" onAction="#A_Search" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #556B2F;" text="A*" textFill="PEACHPUFF">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="288.0" mnemonicParsing="false" onAction="#Optimal" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #556B2F;" text="Optimal2All" textFill="PEACHPUFF">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="367.0" layoutY="334.0" mnemonicParsing="false" onAction="#GreedySearch" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #556B2F;" text="Greedy Best Search" textFill="PEACHPUFF">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="TF" layoutX="367.0" layoutY="421.0" prefHeight="26.0" prefWidth="139.0" style="-fx-background-color: #FFDAB9;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></TextField>
+      <Button layoutX="367.0" layoutY="373.0" mnemonicParsing="false" onAction="#BFS_Search" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #556B2F;" text="Breadth First Search" textFill="PEACHPUFF">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ScrollPane fx:id="scroll" layoutX="98.0" layoutY="520.0" prefHeight="96.0" prefWidth="572.0" style="-fx-background-color: #FFDAB9;">
+         <content>
+            <HBox fx:id="HB" prefHeight="96.0" prefWidth="569.0" style="-fx-background-color: #FFDAB9;" />
+         </content></ScrollPane>
+   </children>
+</AnchorPane>
